@@ -8,15 +8,11 @@ class Estudiante {
         System.out.println("Codigo: "+codigo);
         System.out.println("Semestre: "+semestre);
     }
-}
-
-class Main {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Estudiante estudiante1 = new Estudiante();
         estudiante1.nombre = "Juan";
         estudiante1.codigo = "123123";
         estudiante1.semestre = 2;
         estudiante1.mostrarInf();
     }
-    
 }
