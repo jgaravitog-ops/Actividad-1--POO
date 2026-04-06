@@ -17,6 +17,14 @@ class CuentaBancaria {
             System.out.println("No se puede consignar saldo menor o igual que 0.");
         }
     }
+    void retirar(double valor){
+        if (saldo > valor && valor > 0) {
+            saldo -= valor;
+        }
+        else {
+            System.out.println("El valor ingresado no es permitido o saldo es insuficiente");
+        }
+    }
     
     public static void main(String[] args) {
         CuentaBancaria cBancaria1 = new CuentaBancaria();
