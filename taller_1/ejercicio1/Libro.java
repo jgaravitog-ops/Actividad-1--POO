@@ -33,4 +33,9 @@ public class Libro {
         System.out.println("Autor: "+autor);
         System.out.println("Numero paginas: "+numeroPaginas);
     }
+    @Override
+    public String toString() {
+        return "Libro [titulo=" + titulo + ", autor=" + autor + ", numeroPaginas=" + numeroPaginas + "]";
+    }
+
 }
