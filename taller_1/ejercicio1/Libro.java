@@ -28,4 +28,9 @@ public class Libro {
     public void mostrarPaginas() {
         System.out.println(numeroPaginas);
     }
+    public void mostrarLibro(){
+        System.out.println("Titulo: "+titulo);
+        System.out.println("Autor: "+autor);
+        System.out.println("Numero paginas: "+numeroPaginas);
+    }
 }
